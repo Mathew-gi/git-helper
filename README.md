@@ -9,3 +9,11 @@ Here are a few steps to initialize your repo and to connect local and remote rep
 * ssh-keygen -t ed25519 -C "git-mail" - to create ssh-keys (if you don`t have keys) and add public key to your github-profile
 * git remote add origin "git@gitaddr" - connect local and remote repo`s
 * git push -u origin main - relocate local files to remote repo
+
+Git files states:
+
+```mermaid
+graph LR;
+untracked -- "git add" --> staged/tracked;
+staged/tracked -- "git commit" --> commited;
+```
