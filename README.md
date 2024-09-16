@@ -16,9 +16,6 @@ Git files states:
 graph LR;
 untracked -- "git add" --> staged/tracked;
 staged/tracked -- "git commit" --> commited;
-<<<<<<< HEAD
 commited -- "by editting" --> modified;
 staged/tracked -- "by editting" --> modified;
-=======
->>>>>>> bcdfdee6315523947613bfa95b1747cc4046d88c
 ```
